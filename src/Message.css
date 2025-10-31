@@ -1,0 +1,23 @@
+.message-card {
+    border: 2px solid rgb(235, 229, 229);
+    border-radius: 30px;
+    width: 33rem !important;
+    height: auto;
+    padding: 2rem 2rem;
+    text-align: left;
+    h6 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    p {
+        color: rgb(123, 121, 121);
+    }
+}
+.stars {
+    font-size: 1.8rem;
+    color: gold;
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+}

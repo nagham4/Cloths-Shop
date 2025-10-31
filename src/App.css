@@ -1,0 +1,17 @@
+:root {
+  --main-color: #f3efea;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  background-color: var(--main-color);
+  min-height: 100vh;
+  background-color: white;
+}
+
+

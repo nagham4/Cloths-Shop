@@ -1,0 +1,10 @@
+.hh {
+    font-size: 3.8rem
+}
+@media (max-width: 768px) {
+    .bb {
+        width: 90%;
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+    }
+}

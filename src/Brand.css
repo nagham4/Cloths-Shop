@@ -1,0 +1,58 @@
+
+
+.black-line {
+    position: relative;
+    top: -4.2rem;
+    background-color: black;
+    color: white;
+    min-height: 11rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    margin-top: -4rem;
+}
+.brand {
+    background-color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.v {
+    font-family: 'RadiantRRBold', sans-serif;
+        font-size: 4rem;
+        font-weight: normal;
+    }
+.z {
+    font-family: "Bodoni Moda", serif;
+    letter-spacing: -15px;
+    font-size: 4rem;
+    font-weight: normal;
+    }
+.g {
+    font-family: "GranjonRoman", serif;
+    font-size: 4rem;
+    font-weight: normal;
+}
+.p {
+    font-family: "Rosan", serif;
+    font-size: 4rem;
+    font-weight: normal;
+}
+.c {
+    font-family: "Artarumian", sans-serif;
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+@media (max-width: 768px) {
+    .brand {
+        font-size: 1.2rem;
+        justify-content: center;
+        flex: 1 1 calc(33.33% - 10px);
+    }
+    .v, .z, .g, .p, .c {
+        font-size: 3rem;
+    }
+}

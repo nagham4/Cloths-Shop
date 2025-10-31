@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+
+.logoo {
+  font-family: "BBH Sans Hegarty", sans-serif;
+  margin-left: 4rem;
+}
+
+.search-bar {
+  width: 30%;
+  max-width: 800px;
+  font-size: 1.4rem !important;
+  margin-right: 1.5rem !important;
+  margin-left: 1.5rem !important;
+}
+
+.search-bar input,
+.search-bar .form-control {
+  background-color: #ede7e7;
+  border: none;
+  box-shadow: none;
+  height: 3.5rem; 
+  padding-left: 3rem; 
+  box-sizing: border-box;
+}
+
+.icons {
+  margin-right: 3rem;
+}
+.icons i {
+  font-size: 1.4rem;
+}
+
+span.navbar-toggler-icon {
+  color: black !important;
+  font-size: x-large;
+}
+.toggle {
+    margin-left: 1rem !important;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.aa {
+  font-size: 1.4rem !important;
+}
+@media screen and (max-width: 990px) {
+    .container-nav .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-nav .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;          /* prevent items from wrapping to next line */
+    align-items: center !important;
+    gap: 0.5rem !important;}
+
+  span.navbar-toggler-icon {
+    margin-left: 0rem;
+  }
+
+  .logoo {
+    margin-left: 0rem;
+    margin-right: 0rem !important;
+    font-size: 1.5rem;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 48px;   
+    width: 48px;
+    height: 48px;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden;
+    transition: width 0.3s ease;
+  }
+
+  .icons {
+    margin-right: 1rem;
+  }
+  .icons i {
+    font-size: 1.2rem;
+  }  
+  .toggle{
+    margin: 0 !important;
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding: 0;
+    color: black;
+    right: 0 !important;
+    margin: 0 !important;
+  }
+
+  .search-bar .form-control,
+  .search-bar input {
+    display: none !important;
+  }
+  .search-bar i {
+    position: static !important;
+    transform: none !important;
+    font-size: 1.3rem;
+    color: black;
+  }
+} 
+

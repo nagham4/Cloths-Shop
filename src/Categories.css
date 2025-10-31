@@ -1,0 +1,23 @@
+.container {
+    border-radius: 30px;
+}
+.browse {
+    font-family: "BBH Sans Hegarty", sans-serif !important;
+    font-size: 3.9rem !important;
+    font-weight: "bold";
+    text-align: center;
+    color: black;
+}
+.parent {
+    display: flex;
+    img{
+    border-radius: 30px;
+    width: 100%;
+    }
+}
+.parent > :first-child {
+    flex: 0.3;
+}
+.parent > :nth-child {
+    flex: 0.6;
+}

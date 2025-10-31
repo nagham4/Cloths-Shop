@@ -1,0 +1,45 @@
+
+.card {
+    border-radius: 20px !important;
+    align-items: center;
+    /* width: 20rem; */
+    padding: 0;
+    border: none !important;
+}
+
+.card-img-top {
+    border-radius: 20px !important;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+.stars {
+    display: flex;
+    align-items: center;
+}
+.star {
+    color: gold;
+    margin-right: 5px;
+}
+.reviews {
+    margin-left: 10px;
+    font-size: 14px;
+    span {
+        color: #555;
+    }
+}
+.card-body {
+    text-align: left;
+    padding: 0px;
+}
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    text-align: left;
+}

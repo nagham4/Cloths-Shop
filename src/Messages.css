@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    font-family: "BBH Sans Hegarty", sans-serif !important;
+    font-size: 3.9rem !important;
+    font-weight: "bold";
+    text-align: left;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        margin: 1rem 2rem !important;
+    }
+}
+@media screen and (max-width: 635px) {
+    .title {
+        display: flex;
+        flex-direction: column !important;
+        gap: 1.5rem;
+    }
+}
+.review-text {
+    max-height: 5.5rem; /* adjust based on line-height */
+    overflow-y: auto;
+}

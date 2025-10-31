@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+.banner {
+  background-color: #f2f0f1;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+.banner-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 7rem;
+    padding: 1rem;
+}
+.header {
+    font-family: "BBH Sans Hegarty", sans-serif;
+    width: 45rem;
+    font-size: 4.5rem;
+    text-align: left;
+    line-height: 4.5rem;
+    color: black;
+  }
+  .pp {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+.btn-shop {
+    font-family: sans-serif;
+    width: 16rem;
+    font-size: 1.4rem;
+    background-color: black;
+    height: 4rem;
+    margin: 2rem 0rem;
+  } 
+div p {
+    font-family: sans-serif;
+    font-size: 1.4rem;
+}
+.line::after {
+    content: "";
+    display: block;
+    position: relative;
+    right: -2rem;
+    bottom: 6rem;
+    height: 6rem;
+    border-right: 2px solid rgb(198, 196, 196);
+}
+div h2 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+img {
+  flex: 0 0 auto;         
+  max-width: 60%;          
+  height: auto;
+  object-fit: contain;    
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 1770px) and (min-width: 990px) {
+
+  .banner-content {
+    margin: 3rem;
+    z-index: 1000;
+  }
+  .header {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    width: 35rem;
+  }
+  .btn-shop {
+    width: 14rem;
+    font-size: 1.2rem;
+    height: 3.5rem;
+    margin: 1.5rem 0rem;
+  }
+  div h2 {
+    font-size: 2.5rem;
+  }
+}
+/* ...existing code... */
+@media screen and (max-width: 992px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .banner-content {
+    width: 90%;
+    margin: 2rem;
+    padding: 0.5rem;
+  }
+  .header {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    width: 100%;
+  }
+  .btn-shop {
+    width: 100%;
+    font-size: 1.2rem;
+    height: 3rem;
+    margin: 1rem 0rem;
+  }
+  div h2 {
+    font-size: 2rem;
+  }
+  img {
+    width: 100%;
+  }
+  
+}
+

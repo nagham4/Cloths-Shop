@@ -1,0 +1,98 @@
+.ii {
+    display: inline-flex;         /* makes the link a flex container */
+    justify-content: center;      /* centers icon horizontally */
+    align-items: center;  
+    width: 40px;
+    height: 40px;
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid grey;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.ii:hover {
+    background-color: black !important;
+    color: white !important;
+}
+.socials {
+    display: flex;
+    gap: 0.4rem !important;
+}
+.socials div {
+    width: 50px !important;
+}
+.logoo {
+    color: black !important;
+}
+h6 {
+    color: black !important;
+}
+
+
+.newsletter-section {
+  position: relative;
+  top: -100px;  
+  z-index: 2;
+  width: 100%;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #6c757d;
+  pointer-events: none;
+}
+
+.inp input {
+  border-radius: 50px;
+  height: 3.6rem !important;
+  border: none;
+}
+
+.inp input::placeholder {
+  color: #999;
+  font-size: large;
+}
+
+.newsletter-section form {
+  width: 100%;
+}
+
+.newsletter-section button {
+  border-radius: 50px;
+  font-weight: 600;
+}
+.pp {
+  line-height: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .newsletter-box {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .newsletter-text {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .newsletter-form {
+    width: 100%;
+  }
+}
+/* @media screen and (max-width: 630px){
+  .inp input {
+    width: 25rem;
+    margin: 0;
+  }
+  .bbtn {
+    width: 25rem !important;
+    margin: 0 !important;
+  }
+
+} */
