@@ -1,0 +1,87 @@
+.thumbnail-img {
+  width: 170px;
+  height: 33% !important;
+  object-fit: cover;
+  border-radius: 30px !important;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.2s;
+  padding: 0 !important;
+}
+
+.thumbnail-img.selected-thumb {
+  border: 2px solid #000;
+}
+
+.main-img {
+    width: 510px;
+    height: 610px !important;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.color-btn {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.titlee {
+    font-family: "BBH Sans Hegarty", sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: left;
+    line-height: 4.5rem;
+    color: black;
+}
+.prices {
+  color: rgb(172, 168, 168) !important;
+  font-family: 'BBH Sans Hegarty', sans-serif !important;
+}
+.newp {
+    font-family: 'BBH Sans Hegarty', sans-serif !important;
+    margin-right: 3px;
+}
+.discount {
+  background-color: rgb(253, 223, 228);
+  padding: 8px 15px;
+  font-size: 1.25rem;
+  border-radius: 30px;
+}
+.textsec {
+  text-align: left;
+}
+.size {
+  border: none !important;
+  border-radius: 30px !important;
+  padding: 15px 25px !important;
+  font-size: 1.3rem !important;
+}
+.size2 {
+    background-color: rgb(246, 243, 243) !important;
+}
+.size:hover {
+  background-color: #000 !important;
+  color: white !important;
+}
+.counter {
+  background-color: rgb(246, 243, 243) !important;
+  padding: 0.3rem 5rem !important;
+  align-items: center;
+  justify-content: space-around !important;
+  button  {
+    font-size: 1.7rem;
+    color: #000;
+    font-weight: bold;
+  }
+  span {
+    font-size: 1.5rem;
+    color: #000;
+  }
+}
+.add-to-cart {
+    padding: 1rem 5rem !important;
+    font-size: 1.3rem !important;
+
+}

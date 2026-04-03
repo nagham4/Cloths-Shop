@@ -19,14 +19,14 @@ function Footer() {
             }}
           >
             {/* Text */}
-            <div className="col-12 col-md-6 mb-3 mb-md-0 text-md-start text-center">
-              <p className="mb-0 fw-bold pp" style={{ fontFamily: "BBH Sans Hegarty", fontSize: "3rem" }}>
+            <div className="col-12 col-md-6 mb-3 mb-md-0 text-md-start text-center ppp">
+              <p className="mb-0 fw-bold " style={{ fontFamily: "BBH Sans Hegarty", fontSize: "3rem" }}>
                 STAY UP TO DATE ABOUT OUR LATEST OFFERS
               </p>
             </div>
 
             {/* Input and Button */}
-            <div className="col-12 col-md-5" style={{ width: "30rem" }}>
+            <div className="col-12 col-md-5 form" style={{ width: "30rem" }}>
               <div className="position-relative mb-3 inp">
                 <FaEnvelope className="input-icon fs-4" />
                 <input

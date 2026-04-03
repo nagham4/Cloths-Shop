@@ -1,49 +1,60 @@
 import React from "react";
-
+import './Categories.css';
 const styles = [
   {
     name: "Casual",
     img: "./src/assets/casual.png",
+    id: 1
   },
   {
     name: "Formal",
     img: "./src/assets/formal.png",
+    id: 2
   },
   {
     name: "Party",
     img: "./src/assets/party.png",
+    id: 2
   },
   {
     name: "Gym",
     img: "./src/assets/gym.png",
+    id: 1
   },
 ];
 
-export default function BrowseByStyle() {
+export default function Categories() {
   return (
     <section
+    className="sectionn"
       style={{
         backgroundColor: "#f5f5f5",
         borderRadius: "20px",
-        padding: "3rem 2rem",
+        padding: "6rem",
         textAlign: "center",
+        margin: "7%",
+        alignItems: "center",
       }}
     >
-      <h2
+      <div>
+      <h1
+        className="h1"
         style={{
-          fontWeight: "800",
-          fontSize: "1.8rem",
-          marginBottom: "2rem",
-        }}
-      >
+          fontFamily: "BBH Sans Hegarty",
+          fontSize: "3.9rem" ,
+          fontWeight: "bold",
+          textAlign: "center" ,
+          color: "black",
+          marginBottom: "5rem",
+          }}>
         BROWSE BY DRESS STYLE
-      </h2>
-
+      </h1>
+</div>
       <div
         className="style-grid"
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+          gridTemplateColumns: "repeat(6, 1fr)",
           gap: "1rem",
           justifyContent: "center",
         }}
@@ -51,11 +62,15 @@ export default function BrowseByStyle() {
         {styles.map((item, index) => (
           <div
             key={index}
-            className="style-card"
-            style={{
+              className={`style-card ${item.id === 1 ? "small" : "large"}`}            
+              style={{
+              display: "flex",
+              justifyContent: "flex-end",
               position: "relative",
               overflow: "hidden",
               borderRadius: "15px",
+              maxHeight: "24rem",
+              minHeight: "20rem",
               backgroundColor: "#fff",
               boxShadow: "0 4px 10px rgba(0,0,0,0.05)",
             }}
@@ -75,10 +90,10 @@ export default function BrowseByStyle() {
                 position: "absolute",
                 top: "1rem",
                 left: "1rem",
-                fontWeight: "600",
-                backgroundColor: "rgba(255,255,255,0.8)",
+                fontWeight: "bold",
                 borderRadius: "10px",
                 padding: "0.3rem 0.7rem",
+                fontSize: "3rem",
               }}
             >
               {item.name}

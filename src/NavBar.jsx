@@ -42,11 +42,11 @@ function NavBar() {
         />
         </div>
         <div className="d-flex align-items-center gap-1 icons">
-          <button class="btn">
-          <i class="bi bi-cart"></i>
+          <button className="btn">
+            <i className="bi bi-cart"></i>
           </button>
-          <button class="btn">
-          <i class="bi bi-person-circle"></i>
+          <button className="btn">
+            <i className="bi bi-person-circle"></i>
           </button>
         </div>
       </Container>

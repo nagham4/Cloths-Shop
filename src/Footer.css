@@ -74,8 +74,17 @@ h6 {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    padding: 1rem !important;
+    align-content: center;
   }
-
+  .form {
+    max-width: 20rem !important;
+    width: 80% !important;
+  }
+  .ppp {
+    font-size: 3rem !important;
+    width: 80% !important;
+  }
   .newsletter-text {
     width: 100%;
     margin-bottom: 1rem;
